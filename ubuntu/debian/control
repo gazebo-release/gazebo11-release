@@ -78,8 +78,8 @@ Package: gazebo8
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-	 libgazebo8 (= ${binary:Version}),
-	 gazebo8-common (= ${source:Version})
+         libgazebo8 (= ${binary:Version}),
+         gazebo8-common (= ${source:Version})
 Recommends: gazebo8-plugin-base
 Suggests: gazebo8-doc
 Multi-Arch: foreign
@@ -124,23 +124,23 @@ Package: libgazebo8-dev
 Architecture: any
 Section: libdevel
 Depends: libtbb-dev,
-	 libxml2-dev,
-   qtbase5-dev,
-   libqwt-qt5-dev,
-	 libprotoc-dev,
-	 libfreeimage-dev,
-	 libprotobuf-dev,
-	 libboost-all-dev,
-	 freeglut3-dev,
+         libxml2-dev,
+         qtbase5-dev,
+         libqwt-qt5-dev,
+         libprotoc-dev,
+         libfreeimage-dev,
+         libprotobuf-dev,
+         libboost-all-dev,
+         freeglut3-dev,
          libogre-1.9-dev,
          libtar-dev,
-	 libcurl4-openssl-dev,
-	 libgts-dev,
+         libcurl4-openssl-dev,
+         libgts-dev,
          libusb-1.0-0-dev,
          libgdal-dev,
-	 libavformat-dev,
-	 libavcodec-dev,
-	 libswscale-dev,
+         libavformat-dev,
+         libavcodec-dev,
+         libswscale-dev,
          libavdevice-dev,
          libsdformat4-dev,
          libignition-math2-dev,
@@ -149,10 +149,10 @@ Depends: libtbb-dev,
          libsimbody-dev (>= 3.0.0),
          libsimbody-dev (<< 4.0.0),
          libbullet-dev,
-	 libgazebo8 (= ${binary:Version}),
-	 gazebo8-common (= ${source:Version}),
-	 gazebo8-plugin-base (= ${source:Version}),
-	 ${misc:Depends}
+         libgazebo8 (= ${binary:Version}),
+         gazebo8-common (= ${source:Version}),
+         gazebo8-plugin-base (= ${source:Version}),
+         ${misc:Depends}
 Multi-Arch: same
 Conflicts: gazebo2,
            libgazebo-dev (<< 6.0.0),
@@ -176,7 +176,7 @@ Package: gazebo8-plugin-base
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-	 gazebo8 (= ${binary:Version})
+         gazebo8 (= ${binary:Version})
 Enhances: gazebo8
 Multi-Arch: foreign
 Conflicts: gazebo5-plugins-base,
