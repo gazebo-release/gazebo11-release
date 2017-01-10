@@ -29,17 +29,19 @@ override_dh_auto_configure:
 	        $(CONFIGURE_ARGS) \
 
 # Generate Doxygen HTML documentation.
-override_dh_auto_build-indep:
-	dh_auto_build -- doc
+# Currently broken:
+# https://bitbucket.org/osrf/gazebo/issue/1141
+#override_dh_auto_build-indep:	
+	#dh_auto_build -- doc
 
 override_dh_install:
 	dh_install -- # Install.
-	
+
 	# Install icon
 	mkdir -p debian/gazebo8/usr/share/icons/hicolor/scalable/apps/
 	install -m 644 gazebo/gui/images/gazebo.svg \
 	    debian/gazebo8/usr/share/icons/hicolor/scalable/apps/gazebo.svg	
-	# Install desktop file
+        # Install desktop file
 	mkdir -p debian/gazebo8/usr/share/applications/
 	install -m 644 ./debian/gazebo.desktop \
 	    debian/gazebo8/usr/share/applications/
