@@ -1,3 +1,9 @@
+gazebo8 (8.0.0~beta1-1~yakkety) yakkety; urgency=medium
+
+  * gazebo8 8.0.0~beta1-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 18 Jan 2017 20:10:34 +0100
+
 gazebo8 (7.99.00-1~yakkety) yakkety; urgency=medium
 
   * Stub for nightly releases. No gazebo8 official release yet.
