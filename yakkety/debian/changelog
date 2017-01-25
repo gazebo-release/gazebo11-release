@@ -1,3 +1,9 @@
+gazebo8 (8.0.0~beta5-1~yakkety) yakkety; urgency=medium
+
+  * gazebo8 8.0.0~beta5-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 25 Jan 2017 22:17:24 +0100
+
 gazebo8 (8.0.0~beta4-1~yakkety) yakkety; urgency=medium
 
   * gazebo8 8.0.0~beta4-1 release
