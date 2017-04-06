@@ -1,0 +1,11 @@
+gazebo8 (8.0.0-2~zesty) zesty; urgency=medium
+
+  * gazebo8 8.0.0-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 06 Apr 2017 14:15:14 +0200
+
+gazebo8 (8.0.0-1~zesty) zesty; urgency=medium
+
+  * gazebo8 8.0.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 26 Jan 2017 01:38:10 +0100
