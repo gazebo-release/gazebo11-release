@@ -46,13 +46,13 @@ override_dh_install:
 	dh_install -- # Install.
 
 	# Install icon
-	mkdir -p debian/gazebo8/usr/share/icons/hicolor/scalable/apps/
+	mkdir -p debian/gazebo9/usr/share/icons/hicolor/scalable/apps/
 	install -m 644 gazebo/gui/images/gazebo.svg \
-	    debian/gazebo8/usr/share/icons/hicolor/scalable/apps/gazebo.svg	
+	    debian/gazebo9/usr/share/icons/hicolor/scalable/apps/gazebo.svg	
         # Install desktop file
-	mkdir -p debian/gazebo8/usr/share/applications/
+	mkdir -p debian/gazebo9/usr/share/applications/
 	install -m 644 ./debian/gazebo.desktop \
-	    debian/gazebo8/usr/share/applications/
+	    debian/gazebo9/usr/share/applications/
 
 # No test for now. Need some refactor work first
 override_dh_auto_test:
@@ -60,7 +60,7 @@ override_dh_auto_test:
 	#dh_auto_test || true
 
 override_dh_strip:
-	dh_strip -a --dbg-package=gazebo8-dbg
+	dh_strip -a --dbg-package=gazebo9-dbg
 
 %:
 	dh $@ --parallel --with bash-completion  

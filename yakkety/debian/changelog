@@ -4,27 +4,3 @@ gazebo8 (8.1.0-1~yakkety) yakkety; urgency=medium
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 04 May 2017 10:09:35 -0700
 
-gazebo8 (8.0.0-1~yakkety) yakkety; urgency=medium
-
-  * gazebo8 8.0.0-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 26 Jan 2017 01:38:10 +0100
-
-gazebo8 (8.0.0~beta5-1~yakkety) yakkety; urgency=medium
-
-  * gazebo8 8.0.0~beta5-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 25 Jan 2017 22:17:24 +0100
-
-gazebo8 (8.0.0~beta4-1~yakkety) yakkety; urgency=medium
-
-  * gazebo8 8.0.0~beta4-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 25 Jan 2017 13:30:25 +0100
-
-gazebo8 (8.0.0~beta3-1~yakkety) yakkety; urgency=medium
-
-  * gazebo8 8.0.0~beta3-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 25 Jan 2017 00:11:53 +0100
-
