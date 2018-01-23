@@ -64,8 +64,7 @@ Conflicts: gazebo6-common,
            gazebo6-common-prerelease,
            gazebo7-common,
            gazebo7-common-prerelease,
-           gazebo8-common,
-           gazebo8-common-prerelease,
+           gazebo8-common
 Description: Open Source Robotics Simulator - Shared files
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
