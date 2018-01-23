@@ -1,3 +1,9 @@
+gazebo9 (9.0.0~pre1-1~xenial) xenial; urgency=medium
+
+  * gazebo9 9.0.0~pre1-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 23 Jan 2018 18:13:53 +0100
+
 gazebo9 (8.99.99-1~xenial) xenial; urgency=medium
 
   * gazebo9 8.99.99-1 release
