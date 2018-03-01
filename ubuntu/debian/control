@@ -198,7 +198,7 @@ Description: Open Source Robotics Simulator - base plug-ins
 Package: gazebo9-dbg
 Architecture: any
 Section: debug
-Depends: gazebo (= ${binary:Version}),
+Depends: gazebo9 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: foreign
 Description: Open Source Robotics Simulator - Debugging Symbols
