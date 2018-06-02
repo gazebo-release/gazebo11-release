@@ -1,3 +1,9 @@
+gazebo9 (9.1.0-1~bionic) bionic; urgency=medium
+
+  * gazebo9 9.1.0-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Fri, 01 Jun 2018 17:51:02 -0700
+
 gazebo9 (9.0.0+osrf-2~bionic) bionic; urgency=medium
 
   * gazebo9 9.0.0+osrf-2 release
