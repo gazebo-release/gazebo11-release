@@ -1,3 +1,9 @@
+gazebo9 (9.1.1-1~xenial) xenial; urgency=medium
+
+  * gazebo9 9.1.1-1 release
+
+ -- Nate Koenig <nkoenig@osrfoundation.org>  Fri, 08 Jun 2018 14:28:10 -0800
+
 gazebo9 (9.1.0-1~xenial) xenial; urgency=medium
 
   * gazebo9 9.1.0-1 release
