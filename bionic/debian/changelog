@@ -1,3 +1,9 @@
+gazebo9 (9.4.1-1~bionic) bionic; urgency=medium
+
+  * gazebo9 9.4.1-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Tue, 19 Sep 2018 07:36:56 -0700
+
 gazebo9 (9.4.0-1~bionic) bionic; urgency=medium
 
   * gazebo9 9.4.0-1 release
