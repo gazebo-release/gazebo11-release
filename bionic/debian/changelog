@@ -1,3 +1,9 @@
+gazebo9 (9.5.0-1~bionic) bionic; urgency=medium
+
+  * gazebo9 9.5.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 19 Nov 2018 23:32:28 +0100
+
 gazebo9 (9.4.1-1~bionic) bionic; urgency=medium
 
   * gazebo9 9.4.1-1 release
