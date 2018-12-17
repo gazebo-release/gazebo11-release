@@ -1,3 +1,9 @@
+gazebo9 (9.6.0-1~xenial) xenial; urgency=medium
+
+  * gazebo9 9.6.0-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Mon, 17 Dec 2018 11:46:17 -0800
+
 gazebo9 (9.5.0-1~xenial) xenial; urgency=medium
 
   * gazebo9 9.5.0-1 release
