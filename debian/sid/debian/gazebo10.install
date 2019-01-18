@@ -1,1 +1,4 @@
-../../../ubuntu/debian/gazebo.install
+usr/bin/gz*
+usr/bin/gazebo*
+usr/share/gazebo/*
+usr/share/gazebo-*/setup.sh
