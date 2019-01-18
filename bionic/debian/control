@@ -1,4 +1,4 @@
-Source: gazebo9
+Source: gazebo10
 Standards-Version: 3.9.5
 Maintainer: Nate Koenig <nate@osrfoundation.org>
 Section: science
@@ -52,11 +52,11 @@ Build-Depends: cmake,
      libsimbody-dev (<< 4.0.0),
      libbullet-dev,
      ruby-ronn
-Vcs-Browser: https://bitbucket.org/osrf/gazebo9-elease
-Vcs-Hg: https://bitbucket.org/osrf/gazebo9-release
+Vcs-Browser: https://bitbucket.org/osrf/gazebo10-elease
+Vcs-Hg: https://bitbucket.org/osrf/gazebo10-release
 Homepage: http://gazebosim.org
 
-Package: gazebo9-common
+Package: gazebo10-common
 Architecture: all
 Depends: ttf-dejavu-core, ${misc:Depends}
 Multi-Arch: foreign
@@ -64,7 +64,8 @@ Conflicts: gazebo6-common,
            gazebo6-common-prerelease,
            gazebo7-common,
            gazebo7-common-prerelease,
-           gazebo8-common
+           gazebo8-common,
+           gazebo9-common
 Description: Open Source Robotics Simulator - Shared files
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
@@ -76,21 +77,22 @@ Description: Open Source Robotics Simulator - Shared files
  This package contains shared files such as 3d models, worlds and
  robots.
 
-Package: gazebo9
+Package: gazebo10
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         libgazebo9 (= ${binary:Version}),
-         gazebo9-common (= ${source:Version})
-Recommends: gazebo9-plugin-base
-Suggests: gazebo9-doc
+         libgazebo10 (= ${binary:Version}),
+         gazebo10-common (= ${source:Version})
+Recommends: gazebo10-plugin-base
+Suggests: gazebo10-doc
 Multi-Arch: foreign
 Conflicts: gazebo2,
            gazebo3,
            gazebo5,
            gazebo6,
            gazebo7,
-           gazebo8
+           gazebo8,
+           gazebo9
 Description: Open Source Robotics Simulator
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
@@ -99,7 +101,7 @@ Description: Open Source Robotics Simulator
  and physically plausible interactions between objects (it includes an
  accurate simulation of rigid-body physics).
 
-Package: libgazebo9
+Package: libgazebo10
 Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -108,7 +110,8 @@ Multi-Arch: same
 Conflicts: libgazebo5,
            libgazebo6,
            libgazebo7,
-           libgazebo8
+           libgazebo8,
+           libgazebo9
 Description: Open Source Robotics Simulator - shared library
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
@@ -119,7 +122,7 @@ Description: Open Source Robotics Simulator - shared library
  .
  This package gathers shared libraries used
 
-Package: libgazebo9-dev
+Package: libgazebo10-dev
 Architecture: any
 Section: libdevel
 Depends: libtbb-dev,
@@ -150,9 +153,9 @@ Depends: libtbb-dev,
          libsimbody-dev (>= 3.0.0),
          libsimbody-dev (<< 4.0.0),
          libbullet-dev,
-         libgazebo9 (= ${binary:Version}),
-         gazebo9-common (= ${source:Version}),
-         gazebo9-plugin-base (= ${source:Version}),
+         libgazebo10 (= ${binary:Version}),
+         gazebo10-common (= ${source:Version}),
+         gazebo10-plugin-base (= ${source:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Conflicts: gazebo2,
@@ -162,7 +165,8 @@ Conflicts: gazebo2,
            libgazebo5-dev,
            libgazebo6-dev,
            libgazebo7-dev,
-           libgazebo8-dev
+           libgazebo8-dev,
+           libgazebo9-dev
 Description: Open Source Robotics Simulator - Development Files
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
@@ -174,17 +178,18 @@ Description: Open Source Robotics Simulator - Development Files
  This package contains development files (headers, shared library
  symbolic link and pkg-config file).
 
-Package: gazebo9-plugin-base
+Package: gazebo10-plugin-base
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         gazebo9 (= ${binary:Version})
-Enhances: gazebo9
+         gazebo10 (= ${binary:Version})
+Enhances: gazebo10
 Multi-Arch: foreign
 Conflicts: gazebo5-plugins-base,
            gazebo6-plugins-base,
            gazebo7-plugins-base,
-           gazebo8-plugins-base
+           gazebo8-plugins-base,
+           gazebo9-plugins-base
 Description: Open Source Robotics Simulator - base plug-ins
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
@@ -195,10 +200,10 @@ Description: Open Source Robotics Simulator - base plug-ins
  .
  This package gathers built-in plugins.
 
-Package: gazebo9-dbg
+Package: gazebo10-dbg
 Architecture: any
 Section: debug
-Depends: gazebo9 (= ${binary:Version}),
+Depends: gazebo10 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: foreign
 Description: Open Source Robotics Simulator - Debugging Symbols
@@ -211,7 +216,7 @@ Description: Open Source Robotics Simulator - Debugging Symbols
  .
  This package contains the debugging symbols.
 
-Package: gazebo9-doc
+Package: gazebo10-doc
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
