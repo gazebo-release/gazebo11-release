@@ -1,1 +1,1 @@
-../../../ubuntu/debian/gazebo-plugin-base.install
+usr/lib/*/gazebo-*/plugins/*.so
