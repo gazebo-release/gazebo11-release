@@ -1,3 +1,9 @@
+gazebo10 (10.0.0-1~sid) sid; urgency=medium
+
+  * gazebo10 10.0.0-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Thu, 31 Jan 2019 15:03:28 -0800
+
 gazebo10 (10.0.0~pre1-1~sid) sid; urgency=medium
 
   * gazebo10 10.0.0~pre1-1 release
