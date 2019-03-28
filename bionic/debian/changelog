@@ -1,3 +1,9 @@
+gazebo10 (10.1.0-1~bionic) bionic; urgency=medium
+
+  * gazebo10 10.1.0-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Thu, 28 Mar 2019 16:25:23 -0700
+
 gazebo10 (10.0.0-1~bionic) bionic; urgency=medium
 
   * gazebo10 10.0.0-1 release

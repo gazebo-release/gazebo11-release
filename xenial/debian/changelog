@@ -1,3 +1,9 @@
+gazebo10 (10.1.0-1~xenial) xenial; urgency=medium
+
+  * gazebo10 10.1.0-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Thu, 28 Mar 2019 16:25:22 -0700
+
 gazebo10 (10.0.0-1~xenial) xenial; urgency=medium
 
   * gazebo10 10.0.0-1 release
