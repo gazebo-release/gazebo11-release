@@ -1,24 +1,6 @@
-gazebo10 (10.1.0-1~xenial) xenial; urgency=medium
+gazebo11 (10.999.999-1~xenial) xenial; urgency=medium
 
-  * gazebo10 10.1.0-1 release
+  * Stub to be removed after first entry
 
- -- Steve Peters <scpeters@osrfoundation.org>  Thu, 28 Mar 2019 16:25:22 -0700
-
-gazebo10 (10.0.0-1~xenial) xenial; urgency=medium
-
-  * gazebo10 10.0.0-1 release
-
- -- Nate Koenig <nate@osrfoundation.org>  Thu, 31 Jan 2019 15:03:28 -0800
-
-gazebo10 (10.0.0~pre1-1~xenial) xenial; urgency=medium
-
-  * gazebo10 10.0.0~pre1-1 release
-
- -- Steve Peters <scpeters@osrfoundation.org>  Fri, 18 Jan 2019 14:43:03 -0800
-
-gazebo10 (0.0.0-1~xenial) xenial; urgency=medium
-
-  * gazebo9 9.6.0-1 release
-
- -- Steve Peters <scpeters@osrfoundation.org>  Mon, 17 Dec 2018 11:46:17 -0800
+ -- Steve Peters <scpeters@openrobotics.org>  Fri, 24 Jan 2020 14:52:23 -0800
 
