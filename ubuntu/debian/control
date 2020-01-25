@@ -42,12 +42,14 @@ Build-Depends: cmake,
      libusb-1.0-0-dev,
      libspnav-dev,
      libgdal-dev,
-     libsdformat6-dev,
-     libignition-math4-dev,
-     libignition-transport4-dev,
-     libignition-msgs-dev,
-     libignition-fuel-tools-dev,
-     libignition-common-dev,
+     libsdformat9-dev,
+     libignition-math6-dev,
+     libignition-transport8-dev,
+     libignition-msgs5-dev,
+     libignition-fuel-tools4-dev,
+     libignition-common3-dev,
+     libignition-common3-graphics-dev,
+     libignition-common3-profiler-dev,
      libsimbody-dev (>= 3.0.0),
      libsimbody-dev (<< 4.0.0),
      libbullet-dev,
@@ -66,6 +68,7 @@ Conflicts: gazebo6-common,
            gazebo7-common-prerelease,
            gazebo8-common,
            gazebo9-common,
+           gazebo10-common,
 Description: Open Source Robotics Simulator - Shared files
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
@@ -92,7 +95,8 @@ Conflicts: gazebo2,
            gazebo6,
            gazebo7,
            gazebo8,
-           gazebo9
+           gazebo9,
+           gazebo10
 Description: Open Source Robotics Simulator
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
@@ -111,7 +115,8 @@ Conflicts: libgazebo5,
            libgazebo6,
            libgazebo7,
            libgazebo8,
-           libgazebo9
+           libgazebo9,
+           libgazebo10
 Description: Open Source Robotics Simulator - shared library
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
@@ -144,12 +149,14 @@ Depends: libtbb-dev,
          libavcodec-dev,
          libswscale-dev,
          libavdevice-dev,
-         libsdformat6-dev,
-         libignition-math4-dev,
-         libignition-transport4-dev,
-         libignition-msgs-dev,
-         libignition-fuel-tools-dev,
-         libignition-common-dev,
+         libsdformat9-dev,
+         libignition-math6-dev,
+         libignition-transport8-dev,
+         libignition-msgs5-dev,
+         libignition-fuel-tools4-dev,
+         libignition-common3-dev,
+         libignition-common3-graphics-dev,
+         libignition-common3-profiler-dev,
          libsimbody-dev (>= 3.0.0),
          libsimbody-dev (<< 4.0.0),
          libbullet-dev,
@@ -166,7 +173,8 @@ Conflicts: gazebo2,
            libgazebo6-dev,
            libgazebo7-dev,
            libgazebo8-dev,
-           libgazebo9-dev
+           libgazebo9-dev,
+           libgazebo10-dev
 Description: Open Source Robotics Simulator - Development Files
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
@@ -189,7 +197,8 @@ Conflicts: gazebo5-plugins-base,
            gazebo6-plugins-base,
            gazebo7-plugins-base,
            gazebo8-plugins-base,
-           gazebo9-plugins-base
+           gazebo9-plugins-base,
+           gazebo10-plugins-base
 Description: Open Source Robotics Simulator - base plug-ins
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
