@@ -1,3 +1,9 @@
+gazebo11 (11.0.0~pre1-1~stretch) stretch; urgency=medium
+
+  * gazebo11 11.0.0~pre1-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Fri, 24 Jan 2020 17:10:05 -0800
+
 gazebo11 (10.999.999-1~stretch) stretch; urgency=medium
 
   * Stub to be removed after first entry
