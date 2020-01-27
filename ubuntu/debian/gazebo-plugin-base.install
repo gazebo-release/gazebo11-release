@@ -1,1 +1,2 @@
 usr/lib/*/gazebo-*/plugins/*.so
+usr/lib/*/gazebo-*/plugins/*.a
