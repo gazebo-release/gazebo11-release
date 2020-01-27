@@ -1,3 +1,9 @@
+gazebo11 (11.0.0~pre1-2~sid) sid; urgency=medium
+
+  * gazebo11 11.0.0~pre1-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 27 Jan 2020 18:26:44 +0100
+
 gazebo11 (11.0.0~pre1-1~sid) sid; urgency=medium
 
   * gazebo11 11.0.0~pre1-1 release
