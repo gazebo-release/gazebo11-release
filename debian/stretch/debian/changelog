@@ -2,6 +2,12 @@ gazebo11 (11.0.0-1~stretch) stretch; urgency=medium
 
   * gazebo11 11.0.0-1 release
 
+ -- Louise Poubel <louise@openrobotics.org>  Thu, 30 Jan 2020 17:58:27 -0800
+
+gazebo11 (11.0.0-1~stretch) stretch; urgency=medium
+
+  * gazebo11 11.0.0-1 release
+
  -- Louise Poubel <louise@openrobotics.org>  Thu, 30 Jan 2020 17:58:14 -0800
 
 gazebo11 (11.0.0~pre2-1~stretch) stretch; urgency=medium

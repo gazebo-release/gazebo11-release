@@ -2,6 +2,12 @@ gazebo11 (11.0.0-1~sid) sid; urgency=medium
 
   * gazebo11 11.0.0-1 release
 
+ -- Louise Poubel <louise@openrobotics.org>  Thu, 30 Jan 2020 17:58:27 -0800
+
+gazebo11 (11.0.0-1~sid) sid; urgency=medium
+
+  * gazebo11 11.0.0-1 release
+
  -- Louise Poubel <louise@openrobotics.org>  Thu, 30 Jan 2020 17:58:15 -0800
 
 gazebo11 (11.0.0~pre2-1~sid) sid; urgency=medium
