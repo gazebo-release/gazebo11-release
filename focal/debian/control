@@ -52,6 +52,10 @@ Build-Depends: cmake,
      libsimbody-dev (>= 3.0.0),
      libsimbody-dev (<< 4.0.0),
      libbullet-dev,
+# dart without major version number to get versions coming from Debian/Ubuntu upstream
+     libdart6-collision-bullet-dev (<< 6.10.0) | libdart-collision-bullet-dev (<< 6.10.0),
+     libdart6-collision-ode-dev (<< 6.10.0) | libdart-collision-ode-dev (<< 6.10.0),
+     libdart6-utils-urdf-dev (<< 6.10.0) | libdart-utils-urdf-dev (<< 6.10.0),
      ruby-ronn
 Vcs-Browser: https://github.com/ignition-release/gazebo11-elease
 Vcs-Git: https://github.com/ignition-release/gazebo11-release
@@ -159,6 +163,10 @@ Depends: libtbb-dev,
          libsimbody-dev (>= 3.0.0),
          libsimbody-dev (<< 4.0.0),
          libbullet-dev,
+# dart without major version number to get versions coming from Debian/Ubuntu upstream
+         libdart6-collision-bullet-dev (<< 6.10.0) | libdart-collision-bullet-dev (<< 6.10.0),
+         libdart6-collision-ode-dev (<< 6.10.0) | libdart-collision-ode-dev (<< 6.10.0),
+         libdart6-utils-urdf-dev (<< 6.10.0) | libdart-utils-urdf-dev (<< 6.10.0),
          libgazebo11 (= ${binary:Version}),
          gazebo11-common (= ${source:Version}),
          gazebo11-plugin-base (= ${source:Version}),
