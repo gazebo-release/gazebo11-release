@@ -1,3 +1,9 @@
+gazebo11 (11.1.0~pre1-1~bionic) bionic; urgency=medium
+
+  * gazebo11 11.1.0~pre1-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 12 Aug 2020 13:46:42 +0200
+
 gazebo11 (11.0.0-1~bionic) bionic; urgency=medium
 
   * gazebo11 11.0.0-1 release
