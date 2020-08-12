@@ -57,6 +57,7 @@ Build-Depends: cmake,
      libdart6-collision-ode-dev (<< 6.10.0) | libdart-collision-ode-dev (<< 6.10.0),
      libdart6-utils-urdf-dev (<< 6.10.0) | libdart-utils-urdf-dev (<< 6.10.0),
      libdart6-external-odelcpsolver-dev (<< 6.10.0) | libdart-external-odelcpsolver-dev (<< 6.10.0),
+     libdart6-external-ikfast-dev (<< 6.10.0) | libdart-external-ikfast-dev (<< 6.10.0),
      ruby-ronn
 Vcs-Browser: https://github.com/ignition-release/gazebo11-elease
 Vcs-Git: https://github.com/ignition-release/gazebo11-release
@@ -169,6 +170,7 @@ Depends: libtbb-dev,
          libdart6-collision-ode-dev (<< 6.10.0) | libdart-collision-ode-dev (<< 6.10.0),
          libdart6-utils-urdf-dev (<< 6.10.0) | libdart-utils-urdf-dev (<< 6.10.0),
          libdart6-external-odelcpsolver-dev (<< 6.10.0) | libdart-external-odelcpsolver-dev (<< 6.10.0),
+         libdart6-external-ikfast-dev (<< 6.10.0) | libdart-external-ikfast-dev (<< 6.10.0),
          libgazebo11 (= ${binary:Version}),
          gazebo11-common (= ${source:Version}),
          gazebo11-plugin-base (= ${source:Version}),
