@@ -1,3 +1,0 @@
-?package(gazebo):needs="X11"\
-        section="Applications/Science/Engineering"\
-        title="Gazebo" command="gazebo"
