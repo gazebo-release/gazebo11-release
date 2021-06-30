@@ -1,3 +1,9 @@
+gazebo11 (11.7.0-1~buster) buster; urgency=medium
+
+  * gazebo11 11.7.0-1 release
+
+ -- Steve Peters <scpeters@openrobotics.org>  Wed, 30 Jun 2021 05:26:30 -0700
+
 gazebo11 (11.6.0-1~buster) buster; urgency=medium
 
   * gazebo11 11.6.0-1 release
