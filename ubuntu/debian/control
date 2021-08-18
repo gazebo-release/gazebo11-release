@@ -88,7 +88,7 @@ Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          libgazebo11 (= ${binary:Version}),
-         gazebo11-common (= ${source:Version})
+         gazebo11-common (>= 11.2.0)
 Recommends: gazebo11-plugin-base
 Suggests: gazebo11-doc
 Multi-Arch: foreign
@@ -167,7 +167,7 @@ Depends: libtbb-dev,
          libdart6-collision-ode-dev,
          libdart6-utils-urdf-dev,
          libgazebo11 (= ${binary:Version}),
-         gazebo11-common (= ${source:Version}),
+         gazebo11-common (>= 11.2.0),
          gazebo11-plugin-base (= ${source:Version}),
          ${misc:Depends}
 Multi-Arch: same

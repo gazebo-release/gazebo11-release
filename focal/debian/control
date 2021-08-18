@@ -90,7 +90,7 @@ Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          libgazebo11 (= ${binary:Version}),
-         gazebo11-common (= ${source:Version})
+         gazebo11-common (>= 11.2.0)
 Recommends: gazebo11-plugin-base
 Suggests: gazebo11-doc
 Multi-Arch: foreign
@@ -172,7 +172,7 @@ Depends: libtbb-dev,
          libdart6-external-odelcpsolver-dev (<< 6.10.0) | libdart-external-odelcpsolver-dev (<< 6.10.0),
          libdart6-external-ikfast-dev (<< 6.10.0) | libdart-external-ikfast-dev (<< 6.10.0),
          libgazebo11 (= ${binary:Version}),
-         gazebo11-common (= ${source:Version}),
+         gazebo11-common (>= 11.2.0),
          gazebo11-plugin-base (= ${source:Version}),
          ${misc:Depends}
 Multi-Arch: same
