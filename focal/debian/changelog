@@ -1,3 +1,9 @@
+gazebo11 (11.8.0-2~focal) focal; urgency=medium
+
+  * gazebo11 11.8.0-2 release
+
+ -- Steve Peters <scpeters@openrobotics.org>  Wed, 18 Aug 2021 08:27:01 -0700
+
 gazebo11 (11.8.0-1~focal) focal; urgency=medium
 
   * gazebo11 11.8.0-1 release
