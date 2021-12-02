@@ -1,3 +1,9 @@
+gazebo11 (11.9.1-1~bionic) bionic; urgency=medium
+
+  * gazebo11 11.9.1-1 release
+
+ -- Steve Peters <scpeters@openrobotics.org>  Thu, 02 Dec 2021 15:44:35 -0800
+
 gazebo11 (11.9.0-1~bionic) bionic; urgency=medium
 
   * gazebo11 11.9.0-1 release
