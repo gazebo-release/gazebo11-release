@@ -34,6 +34,7 @@ override_dh_auto_configure:
 	dh_auto_configure -- \
 	        -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo \
 	        -DUSE_HOST_CFLAGS:BOOL=${CMAKE_HOST_CFLAGS} \
+	        -DGZ_CLI_EXECUTABLE_NAME=gz11 \
 	        $(CONFIGURE_ARGS) \
 
 # Generate Doxygen HTML documentation.
