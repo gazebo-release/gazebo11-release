@@ -119,6 +119,8 @@ Depends: gazebo11,
 Multi-Arch: foreign
 Conflicts: gz-tools2,
            gz-tools3
+Replaces: gazebo11 (<<11.15.0)
+Breaks: gazebo11 (<<11.15.0)
 Description: Open Source Robotics Simulator
  Gazebo is a multi-robot simulator for outdoor environments. Like
  Stage (part of the Player project), it is capable of simulating a
