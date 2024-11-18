@@ -1,3 +1,9 @@
+gazebo11 (11.15.0-1~focal) focal; urgency=medium
+
+  * gazebo11 11.15.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 15 Nov 2024 19:04:23 +0100
+
 gazebo11 (11.14.0-1~focal) focal; urgency=medium
 
   * gazebo11 11.14.0-1 release
